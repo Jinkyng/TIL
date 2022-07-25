@@ -26,15 +26,18 @@
 3. 마크다운 문법에서 글씨의 크기를 키우고 싶다고해서 본문을 제목으로 지정하면 안된다. (맞으면 O, 틀리면 X)
    - 답 : O
    - 이유 : 제목의 형식과 글자크기를 키우는 형식은 서로 다르기 때문 
+   - 풀이 : 마크다운에서의 각각의 역할이 있기 때문
 
 
 
 4. Git의 3가지 공간에는 Working Directory, Staging Area, Commits이 있다. (맞으면 O, 틀리면 X)
    - 답 : X
-   - 이유 : Commits가 아니라, git directory이다.
+   - 이유 : Commits가 아니라, git directory이다?
+   - 풀이 : commits가 저장되는 공간은 repository이다.
 
 
 
 5. Commit ID는 중복 가능하다. (맞으면 O, 틀리면 X)
    - 답 : X
    - 이유 : 아마 안되지 않을까..?
+   - 풀이 : commit ID는 중복 불가능한 해쉬값을 가진다. 중복되면 정확한 로그 확인이 어렵기 때문이다!
